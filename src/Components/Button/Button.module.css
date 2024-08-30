@@ -1,0 +1,20 @@
+:root {
+    --background-color: #000000; /* Replace with the exact color code from Figma */
+    --text-color: #00FF00; /* Replace with the exact color code from Figma */
+  }
+  
+  .button {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 5px; /* Adjust the border-radius value as needed */
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: var(--text-color);
+    color: var(--background-color);
+  }
